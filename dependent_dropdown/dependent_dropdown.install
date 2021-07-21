@@ -5,7 +5,7 @@
  */
 function dependent_dropdown_install() {
   $country_values = [
-    [1, 'AF', 'Afghanistan'],
+  [1, 'AF', 'Afghanistan'],
 	[2, 'AL', 'Albania'],
 	[3, 'DZ', 'Algeria'],
 	[4, 'AS', 'American Samoa'],
