@@ -11,3 +11,6 @@ Upload this code in your custom module folder /modules/custom/ and install the m
 After installing module, access the page using below URL.
 
 <your-website-url>/dependent-dropdown
+
+  
+  Note: To get all countries, states and cities data, refer the link: https://raw.githubusercontent.com/eboominathan/Dependent-Dropdown-in-PHP/master/dropdown/sql/category.sql
