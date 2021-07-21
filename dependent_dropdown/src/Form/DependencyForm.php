@@ -91,7 +91,7 @@ class DependencyForm extends FormBase{
 	}
 	
 	/**
-	 * Get states from DB
+	 * Get states from DB.
 	 */
 	public function getStates(array &$element, FormStateInterface $form_state){
 		$response = new AjaxResponse();
