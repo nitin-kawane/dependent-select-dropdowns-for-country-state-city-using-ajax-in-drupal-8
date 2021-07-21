@@ -1,0 +1,5 @@
+name: Ajax dependent dropdown for Country, State and City.
+description: Get the data of state and city on the basis of selected country.
+type: module
+package: custom
+core: 8.x

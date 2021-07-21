@@ -1,0 +1,14 @@
+dependent_dropdown.show_countries:
+  path: '/dependent-dropdown'
+  defaults:
+    _form: '\Drupal\dependent_dropdown\Form\DependencyForm'
+    _title: 'Dependency Dropdown'
+  requirements:
+    _permission: 'access content'
+    
+dependent_dropdown.show_countries_countroller:
+  path: '/country-data'
+  defaults:
+    _controller: '\Drupal\dependent_dropdown\Controller\CountryStateCityController::getCountryList'
+  requirements:
+    _permission: 'access content'    
